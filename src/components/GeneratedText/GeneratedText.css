@@ -1,0 +1,55 @@
+
+
+.GeneratedText__container {
+  background-color: #21e7cf;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.GeneratedText__heading {
+  animation: slideInRight .7s ease-in;
+  margin: 50px 30px;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
+}
+
+.GeneratedText__sub-heading {
+  display: block;
+  margin-left: 20px;
+}
+
+.GeneratedText__paragraph {
+  font-family: 'Roboto Slab', sans-serif;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  width: 80%;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 991px) {
+  .GeneratedText__container {
+    background-color: #EAEAEA;
+    height: 100%;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  80% {
+    opacity: .6;
+    transform: translateX(-10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
