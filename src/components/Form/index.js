@@ -4,7 +4,7 @@ import './Form.css';
 const Form = props => {
     return (
       <div className="Form__container row">
-        <h2 className="Form__container--heading">No. of Paragraphs</h2>
+        <h2 className="Form__container--heading">No. of Quotes</h2>
         <div className="Form__selector-container col-sm-12">
           <div className="Form__selectors" onClick={() => props.onCountChange('minus')}>
             <span className="Form__selector-operators">-</span>

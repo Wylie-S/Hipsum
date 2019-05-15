@@ -1,14 +1,10 @@
 body{
-  background-color: #5924e3
+  height: 100%; width: 100%
 }
 
 .Hipsum_container{
-  margin: 23px;
+  margin: auto;
 }
 
 
-@media screen and (max-width: 500px) {
-  .Hipsum_container{
-    margin: 0;
-  }
-}
+@media screen and (max-width: 100%)

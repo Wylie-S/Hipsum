@@ -1,36 +1,46 @@
 
 
-.GeneratedText__container {
+.Hipsum_container {
   background-color: #21e7cf;
-  height: calc(100vh - 40px);
-  overflow-y: auto;
+  width:900px;
+
+  margin: auto;
+  border: 3px solid #73AD21;
 }
 
 .GeneratedText__heading {
   animation: slideInRight .7s ease-in;
-  margin: 50px 30px;
-  font-size: 2em;
-  text-align: center;
+  margin: 20px 30px;
+  font-size:10px;
+text-align: center;
   font-family: 'Helvetica', sans-serif;
   font-weight: 800;
 }
 
-.GeneratedText__sub-heading {
+.Hipsum__sub-heading {
   display: block;
   margin-left: 20px;
 }
+.GeneratedText__paragraph{
+font-size: auto;
+font-style: oblique;
+font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
 
-.GeneratedText__paragraph {
+.Hipsum__paragraph {
   font-family: 'Roboto Slab', sans-serif;
   line-height: 1.5em;
-  font-size: 0.9em;
+  font-size: 1.1em;
   width: 80%;
   margin: 30px auto;
 }
 
 @media screen and (max-width: 991px) {
-  .GeneratedText__container {
+  .Hipsum__container {
     background-color: #EAEAEA;
+    text-align: justify;
     height: 100%;
     padding-bottom: 20px;
     overflow-y: hidden;
